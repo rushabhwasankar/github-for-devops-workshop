@@ -1,7 +1,17 @@
-def  hello():
+"""Demo module containing a simple hello function."""
+
+def hello() -> str:
     """
-    thi is from demo 
+    Return a friendly greeting.
     """
     return "Hello dosto"
 
-hello()
+
+def main() -> None:
+    """Main execution function."""
+    print(hello())
+
+
+if __name__ == "__main__":
+    main()
+
